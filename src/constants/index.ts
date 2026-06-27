@@ -5,7 +5,7 @@ export { SKILLS_LIST } from "./skillsList";
 export type { Skill, SkillGroup } from "./skillsList";
 
 export { EXPERIENCES } from "./experience";
-export type { Experience, Position, TechItem } from "./experience";
+export type { Achievement } from "./experience";
 
 export { EDUCATION_LIST } from "./education";
 export type { Education } from "./education";
