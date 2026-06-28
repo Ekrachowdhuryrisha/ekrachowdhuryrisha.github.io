@@ -11,43 +11,63 @@ export default function Navbar() {
   const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+
     window.addEventListener("scroll", onScroll, { passive: true });
+
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   useEffect(() => {
-    const sectionIds = NAV_LINKS.map((l) => l.link.replace("#", ""));
+    const sectionIds = NAV_LINKS.map((item) =>
+      item.link.replace("#", "")
+    );
 
-    const sectionObserver = new IntersectionObserver(
+    const observer = new IntersectionObserver(
       (entries) => {
-        for (const entry of entries) {
+        entries.forEach((entry) => {
           if (entry.isIntersecting) {
             setActiveSection(`#${entry.target.id}`);
           }
-        }
+        });
       },
-      { rootMargin: "-40% 0px -55% 0px", threshold: 0 }
+      {
+        rootMargin: "-40% 0px -55% 0px",
+        threshold: 0,
+      }
     );
 
-    for (const id of sectionIds) {
-      const el = document.getElementById(id);
-      if (el) sectionObserver.observe(el);
+    sectionIds.forEach((id) => {
+      const element = document.getElementById(id);
+
+      if (element) observer.observe(element);
+    });
+
+    const home = document.getElementById("home");
+
+    if (home) {
+      const homeObserver = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            setActiveSection("");
+          }
+        },
+        {
+          threshold: 0.5,
+        }
+      );
+
+      homeObserver.observe(home);
+
+      return () => {
+        observer.disconnect();
+        homeObserver.disconnect();
+      };
     }
 
-    const homeEl = document.getElementById("home");
-    const homeObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) setActiveSection("");
-      },
-      { threshold: 0.4 }
-    );
-    if (homeEl) homeObserver.observe(homeEl);
-
-    return () => {
-      sectionObserver.disconnect();
-      homeObserver.disconnect();
-    };
+    return () => observer.disconnect();
   }, []);
 
   return (
@@ -61,19 +81,21 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        {/* Logo */}
         <Magnetic strength={0.3}>
           <a
-            href="#"
-            aria-label="Go to top"
+            href="#home"
+            aria-label="Go to Home"
             className="text-lg font-bold tracking-tight transition-colors hover:text-accent"
           >
             <span className="text-muted-foreground">&lt;</span>
-            SN
+            ER
             <span className="text-muted-foreground"> /&gt;</span>
           </a>
         </Magnetic>
 
+        {/* Desktop Navigation */}
         <div className="hidden items-center gap-8 md:flex">
           {NAV_LINKS.map((item) => (
             <Magnetic key={item.link} strength={0.25}>
@@ -86,28 +108,35 @@ export default function Navbar() {
                 }`}
               >
                 {item.title}
+
                 {activeSection === item.link && (
                   <motion.span
-                    layoutId="nav-indicator"
+                    layoutId="navbar-indicator"
                     className="absolute -bottom-1.5 left-0 right-0 h-0.5 rounded-full bg-accent"
-                    transition={{ type: "spring", stiffness: 350, damping: 30 }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 350,
+                      damping: 30,
+                    }}
                   />
                 )}
               </a>
             </Magnetic>
           ))}
+
           <Magnetic strength={0.3}>
             <ThemeToggle />
           </Magnetic>
         </div>
 
+        {/* Mobile */}
         <div className="flex items-center gap-3 md:hidden">
           <ThemeToggle />
+
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="flex h-9 w-9 items-center justify-center rounded-full
-                       border border-border bg-card"
-            aria-label="Toggle menu"
+            aria-label="Toggle Menu"
+            className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-card"
           >
             {isOpen ? (
               <X className="h-4 w-4" />
@@ -118,13 +147,25 @@ export default function Navbar() {
         </div>
       </nav>
 
+      {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.2 }}
+            initial={{
+              opacity: 0,
+              height: 0,
+            }}
+            animate={{
+              opacity: 1,
+              height: "auto",
+            }}
+            exit={{
+              opacity: 0,
+              height: 0,
+            }}
+            transition={{
+              duration: 0.25,
+            }}
             className="border-b border-border/50 bg-background/95 backdrop-blur-lg md:hidden"
           >
             <div className="flex flex-col gap-1 px-6 py-4">

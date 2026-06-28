@@ -6,7 +6,7 @@ export interface Achievement {
   category: "Award" | "Competition" | "Scholarship" | "Certificate";
 }
 
-export const EXPERIENCES: Achievement[] = [
+export const ACHIEVEMENTS: Achievement[] = [
   {
     id: "1",
     title: "Vice Chancellor's Award for Academic Excellence",

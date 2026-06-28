@@ -8,14 +8,13 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import MarqueeStrip from "@/components/MarqueeStrip";
 import Skills from "@/components/Skills";
-import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Projects from "@/components/Projects";
-import OpenSource from "@/components/OpenSource";
 import TLDR from "@/components/TLDR";
 import Footer from "@/components/Footer";
 import LightModeBanner from "@/components/LightModeBanner";
 import TLDRFloat from "@/components/TLDRFloat";
+import Achievements from "@/components/Achievements";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -52,11 +51,11 @@ export default function App() {
           <main>
             <Hero />
             <MarqueeStrip />
-            <Experience />
+            <Achievements />
             <Skills />
             <Education />
             <Projects />
-            <OpenSource />
+          
             <TLDR />
             <Footer />
           </main>

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Award, Trophy, GraduationCap, Medal } from "lucide-react";
-import { EXPERIENCES } from "@/constants";
+import { ACHIEVEMENTS } from "@/constants";
 
 const getIcon = (category: string) => {
   switch (category) {
@@ -15,9 +15,9 @@ const getIcon = (category: string) => {
   }
 };
 
-export default function Experience() {
+export default function  Achievements () {
   return (
-    <section id="experience" className="section-container">
+    <section id="achievements" className="section-container">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ export default function Experience() {
       </motion.div>
 
       <div className="mt-12 grid gap-4 md:grid-cols-2">
-        {EXPERIENCES.map((item, index) => (
+        {ACHIEVEMENTS.map((item: typeof ACHIEVEMENTS[number], index: number) => (
           <motion.div
             key={item.id}
             initial={{ opacity: 0, y: 25 }}

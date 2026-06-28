@@ -76,7 +76,7 @@ export default function Education() {
             <div className="mt-4 flex items-center gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-1.5">
                 <MapPin className="h-3.5 w-3.5" />
-                <span>Surathkal, Karnataka</span>
+                <span>Dhaka, Bangladesh</span>
               </div>
               <span className="text-border">|</span>
               <span>{edu.duration}</span>
