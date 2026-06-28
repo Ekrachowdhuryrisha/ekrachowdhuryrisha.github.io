@@ -1,63 +1,210 @@
-# Sudhanva Nadiger — Portfolio
+# 👋 Hi, I'm Ekra Chowdhury Risha
 
-A modern, responsive developer portfolio built with React, TypeScript, and Tailwind CSS. Features a dark-first design with an optional light theme, smooth animations, and interactive UI elements.
+<div align="center">
 
-**Live:** [sudhanvanadiger.vercel.app](https://sudhanvanadiger.vercel.app/)
+### Computer Science Student | AI & Machine Learning Enthusiast | Full Stack Developer
 
-## Tech Stack
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-blue?style=for-the-badge)](https://your-vercel-link.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ekra%20Chowdhury%20Risha-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-linkedin)
+[![GitHub](https://img.shields.io/badge/GitHub-Ekrachowdhuryrisha-181717?style=for-the-badge&logo=github)](https://github.com/Ekrachowdhuryrisha)
 
-- **Framework:** React 18 + Vite 5
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS 3.4 with CSS custom properties (HSL theming)
-- **Animations:** Framer Motion, Lottie (lottie-react)
-- **Icons:** Lucide React, React Icons
-- **Deployment:** Vercel
+</div>
 
-## Features
+---
 
-- Dark mode as default with toggleable light theme
-- Custom animated cursor with magnetic hover effects on links and buttons
-- Infinite scrolling marquee keyword strip
-- Lottie animations (hero section, education section, loading screen)
-- Active section highlighting in navbar via IntersectionObserver
-- Paginated open-source contributions with org filtering
-- Scroll-to-top button and floating TL;DR shortcut
-- Responsive design across all breakpoints
-- Smooth scroll with hash-based navigation
+## 🌟 About
 
-## Sections
+I'm a Computer Science & Engineering student at the **University of Asia Pacific (UAP)** with a strong passion for **Artificial Intelligence, Machine Learning, Data Science, and Full Stack Development**.
 
-| Section | Description |
-|---------|-------------|
-| Hero | Introduction with Lottie animation, social links, and CTAs |
-| Experience | Timeline of work experience at Nutanix, Flipkart, Appleute, and more |
-| Skills | Interactive grid of tech skills grouped by category |
-| Education | Academic background with institution logo and Lottie animation |
-| Projects | Project showcase with icons and tech stack tags |
-| Open Source | Paginated list of open-source contributions across multiple orgs |
-| TL;DR | Quick summary with key stats and a stylized code block |
-| Contact | Profile photo, social links, email, and resume |
+I enjoy building intelligent web applications that solve real-world problems using modern technologies including **Python, Django, React, Machine Learning, and Generative AI**.
 
-## Getting Started
+---
+
+## 🚀 Live Portfolio
+
+🔗 **Portfolio:** https://ekrachowdhuryrisha-portfolio.vercel.app/
+
+---
+
+# 💻 Technologies
+
+### Languages
+
+- Python
+- JavaScript
+- TypeScript
+- Java
+- C++
+- SQL
+
+### Frontend
+
+- React
+- HTML5
+- CSS3
+- Tailwind CSS
+- Bootstrap
+
+### Backend
+
+- Django
+- Django REST Framework
+- Node.js
+
+### AI / Machine Learning
+
+- TensorFlow
+- Scikit-Learn
+- Pandas
+- NumPy
+- OpenCV
+- Botpress
+
+### Database
+
+- MySQL
+- SQLite
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Postman
+- Figma
+
+---
+
+# 📂 Featured Projects
+
+## 🏠 Bachelor Point
+
+A multi-vendor bachelor accommodation platform built with Django.
+
+### Features
+
+- User Authentication
+- Email Verification
+- Bachelor House Listings
+- Food Supplier Module
+- House Owner Dashboard
+- Responsive UI
+- Integrated AI Chatbot using Botpress
+
+**Tech Stack**
+
+- Django
+- Python
+- HTML
+- CSS
+- JavaScript
+- MySQL
+- Botpress
+
+Repository:
+
+https://github.com/Ekrachowdhuryrisha/-BachelorPoint-
+
+---
+
+## 🤖 Bachelor Point AI Chatbot
+
+An AI-powered chatbot integrated into Bachelor Point.
+
+### Features
+
+- Website-aware responses
+- Answers user questions
+- Botpress powered
+- Embedded into the website
+
+---
+
+## 💉 VaxMate
+
+A smart vaccination management system designed to simplify vaccination scheduling and record management.
+
+### Features
+
+- Vaccination Schedule
+- Appointment Management
+- Vaccine Tracking
+- Responsive Interface
+
+**Tech Stack**
+
+- Django
+- Python
+- HTML
+- CSS
+- JavaScript
+- MySQL
+
+Repository:
+
+https://github.com/Ekrachowdhuryrisha/VaxMate
+
+---
+
+## 📊 Data Analytics & Machine Learning Projects
+
+- Data Analysis
+- Machine Learning Models
+- Data Visualization
+- Predictive Analytics
+
+Using
+
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+
+---
+
+# 🏆 Achievements
+
+- 🥇 Vice Chancellor's Award for Academic Excellence (Spring-24, Fall-24, Spring-25)
+- 🥇 Dean's Award for Academic Excellence (Spring-23, Fall-23)
+- 🥇 Champion – Research Poster Presentation (Jahangirnagar University Research Society, 2025)
+- 🥈 7th Position – National Data Analytics Competition (NDAC-2025)
+- 🎓 ICPC Jamilur Reza Chowdhury Scholarship
+- 🌸 "She Leads" Award – ML Project Showcase (Research & Publication Unit, UAP)
+- 🥉 2nd Runner Up – Omor Ekushe Programming Contest (2023)
+
+---
+
+# 📜 Certifications
+
+- Hands-on Data Science Boot Camp (6 Months)
+- Responsive Web Design – freeCodeCamp
+
+---
+
+# 📫 Connect With Me
+
+📧 Email
+
+**ekrachowdhuryrisha@gmail.com**
+
+GitHub
+
+https://github.com/Ekrachowdhuryrisha
+
+LinkedIn
+
+[(Add your LinkedIn URL here)](https://www.linkedin.com/in/ekra-chowdhury-risha/)
+
+Portfolio
+
+[(Add your Vercel portfolio URL here)](https://ekrachowdhuryrisha-portfolio.vercel.app/)
+
+---
+
+# ⚙️ Run Locally
+
+Clone the repository
 
 ```bash
-# Install dependencies
-npm install
-
-# Start dev server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-## Inspiration
-
-- [devar.sh](https://www.devar.sh/)
-- [utkarshkumar.vercel.app](https://utkarshkumar.vercel.app/)
-- [parthsharma.me](https://parthsharma.me/)
-- [parthmittal.netlify.app](https://parthmittal.netlify.app/)
-
-## License
-
-Feel free to use this as a template for your own portfolio. Contributions are welcome.
+git clone https://github.com/Ekrachowdhuryrisha/ekrachowdhuryrisha.github.io.git
