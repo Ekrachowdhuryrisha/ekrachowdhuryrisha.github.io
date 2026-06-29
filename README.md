@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my projects, technical skills, education, achievements, and experience as a Computer Science student passionate about Artificial Intelligence, Machine Learning, and Full Stack Development.
 
-🔗 **Live Website:** https://ekrachowdhuryrisha.vercel.app
+🔗 **Live Website:** https://ekrachowdhuryrisha-portfolio.vercel.app/
 
 ---
 
@@ -212,7 +212,7 @@ https://www.linkedin.com/in/ekra-chowdhury-risha
 https://github.com/Ekrachowdhuryrisha
 
 🌐 Portfolio:
-https://ekrachowdhuryrisha.vercel.app 
+https://ekrachowdhuryrisha-portfolio.vercel.app/
 
 ---
 
