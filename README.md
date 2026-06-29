@@ -1,210 +1,223 @@
-# 👋 Hi, I'm Ekra Chowdhury Risha
+# 🌸 Ekra Chowdhury Risha - Portfolio
 
-<div align="center">
+A modern, responsive portfolio website showcasing my projects, technical skills, education, achievements, and experience as a Computer Science student passionate about Artificial Intelligence, Machine Learning, and Full Stack Development.
 
-### Computer Science Student | AI & Machine Learning Enthusiast | Full Stack Developer
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-blue?style=for-the-badge)](https://your-vercel-link.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ekra%20Chowdhury%20Risha-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-linkedin)
-[![GitHub](https://img.shields.io/badge/GitHub-Ekrachowdhuryrisha-181717?style=for-the-badge&logo=github)](https://github.com/Ekrachowdhuryrisha)
-
-</div>
+🔗 **Live Website:** https://ekrachowdhuryrisha.vercel.app
 
 ---
 
-## 🌟 About
+## 👩‍💻 About Me
 
-I'm a Computer Science & Engineering student at the **University of Asia Pacific (UAP)** with a strong passion for **Artificial Intelligence, Machine Learning, Data Science, and Full Stack Development**.
+Hi! I'm **Ekra Chowdhury Risha**, a Computer Science & Engineering undergraduate at the **University of Asia Pacific (UAP), Bangladesh**.
 
-I enjoy building intelligent web applications that solve real-world problems using modern technologies including **Python, Django, React, Machine Learning, and Generative AI**.
+I enjoy building intelligent software using modern technologies and continuously learning about:
+
+- 🤖 Artificial Intelligence
+- 🧠 Machine Learning
+- 🐍 Python Development
+- 🌐 Full Stack Web Development
+- 💡 Software Engineering
+
+I'm currently seeking **Software Engineering** and **AI/ML Internship** opportunities where I can apply my knowledge while continuing to grow.
 
 ---
 
-## 🚀 Live Portfolio
-
-🔗 **Portfolio:** https://ekrachowdhuryrisha-portfolio.vercel.app/
-
----
-
-# 💻 Technologies
-
-### Languages
-
-- Python
-- JavaScript
-- TypeScript
-- Java
-- C++
-- SQL
+# 🚀 Tech Stack
 
 ### Frontend
-
 - React
+- TypeScript
+- Vite
+- Tailwind CSS
 - HTML5
 - CSS3
-- Tailwind CSS
-- Bootstrap
+- JavaScript
 
 ### Backend
-
+- Python
 - Django
-- Django REST Framework
-- Node.js
+- REST APIs
 
 ### AI / Machine Learning
-
-- TensorFlow
-- Scikit-Learn
-- Pandas
-- NumPy
-- OpenCV
-- Botpress
+- Google Gemini API
+- LangChain
+- Retrieval-Augmented Generation (RAG)
 
 ### Database
-
 - MySQL
-- SQLite
 
 ### Tools
-
 - Git
 - GitHub
 - VS Code
-- Postman
-- Figma
+- Canva
+
+---
+
+# ✨ Features
+
+- Responsive Design
+- Dark / Light Theme
+- Smooth Animations (Framer Motion)
+- Interactive Navigation
+- Custom Cursor
+- Modern UI
+- Download Resume
+- Project Showcase
+- Skills Section
+- Education Timeline
+- Achievements Section
+- Contact Section
 
 ---
 
 # 📂 Featured Projects
 
-## 🏠 Bachelor Point
+## 1️⃣ UAP Bot by RAG
 
-A multi-vendor bachelor accommodation platform built with Django.
+**Tech Stack:** Python • Streamlit • LangChain • Google Gemini API
+
+An AI-powered chatbot for the University of Asia Pacific that uses **Retrieval-Augmented Generation (RAG)** to answer university-related questions from official documents with accurate, contextual responses.
 
 ### Features
 
-- User Authentication
-- Email Verification
-- Bachelor House Listings
+- Retrieval-Augmented Generation (RAG)
+- Google Gemini Integration
+- LangChain Pipeline
+- University Document Search
+- Streamlit Interface
+
+🔗 Repository:
+https://github.com/Ekrachowdhuryrisha/uap-bot
+
+---
+
+## 2️⃣ Bachelor Point
+
+**Tech Stack:** Django • Python • HTML • CSS • JavaScript • MySQL
+
+A full-stack multi-vendor web platform designed to simplify student accommodation and daily services.
+
+### Features
+
+- Bachelor Accommodation System
 - Food Supplier Module
-- House Owner Dashboard
-- Responsive UI
-- Integrated AI Chatbot using Botpress
-
-**Tech Stack**
-
-- Django
-- Python
-- HTML
-- CSS
-- JavaScript
-- MySQL
-- Botpress
-
-Repository:
-
-https://github.com/Ekrachowdhuryrisha/-BachelorPoint-
+- House Owner Module
+- Student Dashboard
+- Email OTP Verification
+- Authentication System
+- Booking Management
+- Integrated AI Chatbot for user assistance using Google Gemini API
 
 ---
 
-## 🤖 Bachelor Point AI Chatbot
+## 3️⃣ VaxMate
 
-An AI-powered chatbot integrated into Bachelor Point.
+**Tech Stack:** Python • Django • MySQL • HTML • CSS • JavaScript
 
-### Features
-
-- Website-aware responses
-- Answers user questions
-- Botpress powered
-- Embedded into the website
-
----
-
-## 💉 VaxMate
-
-A smart vaccination management system designed to simplify vaccination scheduling and record management.
+A vaccination management system that helps users manage vaccination schedules and medical records.
 
 ### Features
 
-- Vaccination Schedule
-- Appointment Management
-- Vaccine Tracking
-- Responsive Interface
+- Vaccination Schedule Management
+- Reminder System
+- User Authentication
+- Vaccination Record Tracking
+- MySQL Database
 
-**Tech Stack**
-
-- Django
-- Python
-- HTML
-- CSS
-- JavaScript
-- MySQL
-
-Repository:
-
+🔗 Repository:
 https://github.com/Ekrachowdhuryrisha/VaxMate
 
 ---
 
-## 📊 Data Analytics & Machine Learning Projects
+## 4️⃣ Personal Portfolio Website
 
-- Data Analysis
-- Machine Learning Models
-- Data Visualization
-- Predictive Analytics
+**Tech Stack:** React • TypeScript • Vite • Tailwind CSS • Framer Motion
 
-Using
+A modern responsive portfolio website built from scratch to showcase my technical skills, projects, education, and achievements.
 
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- Matplotlib
+### Features
 
----
+- Responsive Design
+- Dark Mode
+- Smooth Animations
+- Interactive UI
+- Project Showcase
+- Resume Download
+- Contact Section
 
-# 🏆 Achievements
-
-- 🥇 Vice Chancellor's Award for Academic Excellence (Spring-24, Fall-24, Spring-25)
-- 🥇 Dean's Award for Academic Excellence (Spring-23, Fall-23)
-- 🥇 Champion – Research Poster Presentation (Jahangirnagar University Research Society, 2025)
-- 🥈 7th Position – National Data Analytics Competition (NDAC-2025)
-- 🎓 ICPC Jamilur Reza Chowdhury Scholarship
-- 🌸 "She Leads" Award – ML Project Showcase (Research & Publication Unit, UAP)
-- 🥉 2nd Runner Up – Omor Ekushe Programming Contest (2023)
+Repository:
+Current Repository
 
 ---
 
-# 📜 Certifications
+# 📸 Portfolio Preview
 
-- Hands-on Data Science Boot Camp (6 Months)
-- Responsive Web Design – freeCodeCamp
+<img src="public/og-image.png" alt="Portfolio Preview" width="100%">
 
----
-
-# 📫 Connect With Me
-
-📧 Email
-
-**ekrachowdhuryrisha@gmail.com**
-
-GitHub
-
-https://github.com/Ekrachowdhuryrisha
-
-LinkedIn
-
-https://www.linkedin.com/in/ekra-chowdhury-risha/
-
-Portfolio
-
-https://ekrachowdhuryrisha-portfolio.vercel.app/
 
 ---
 
-# ⚙️ Run Locally
+# ⚙️ Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/Ekrachowdhuryrisha/ekrachowdhuryrisha.github.io.git
+git clone https://github.com/Ekrachowdhuryrisha/-portfolio_ekrachowdhuryrisha-.git
+```
+
+Go into the project directory
+
+```bash
+cd -portfolio_ekrachowdhuryrisha-
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+# 📬 Contact
+
+**Ekra Chowdhury Risha**
+
+📧 Email:
+ekrachowdhuryrisha@gmail.com
+
+💼 LinkedIn:
+https://www.linkedin.com/in/ekra-chowdhury-risha
+
+💻 GitHub:
+https://github.com/Ekrachowdhuryrisha
+
+🌐 Portfolio:
+https://ekrachowdhuryrisha.vercel.app 
+
+---
+
+# 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
