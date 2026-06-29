@@ -194,11 +194,11 @@ https://github.com/Ekrachowdhuryrisha
 
 LinkedIn
 
-[(Add your LinkedIn URL here)](https://www.linkedin.com/in/ekra-chowdhury-risha/)
+https://www.linkedin.com/in/ekra-chowdhury-risha/
 
 Portfolio
 
-[(Add your Vercel portfolio URL here)](https://ekrachowdhuryrisha-portfolio.vercel.app/)
+https://ekrachowdhuryrisha-portfolio.vercel.app/
 
 ---
 

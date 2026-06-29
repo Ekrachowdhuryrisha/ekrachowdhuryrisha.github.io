@@ -15,7 +15,7 @@ export type { Project, TechIcon } from "./projects";
 
 
 export const RESUME_LINK =
-  "https://drive.google.com/file/d/1fAlHoNfCHkJCkmcpGFzbanTZorT2r2U_/view";
+  "https://drive.google.com/file/d/1X8GTGwWwP1GE7c3Zydivo_YLoE8OfvDZ/view";
 
 export const REPO_LINK =
   "https://github.com/Ekrachowdhuryrisha/ekrachowdhuryrisha.github.io";
